@@ -17,10 +17,15 @@ public class MyApp extends Application {
 		// 発展課題：中央揃え
 		label.setStyle("-fx-font-size: 60px; -fx-font-weight: bold; -fx-alignment: center; -fx-pref-width: 640;");
 
-		/* 別解
-		label.setStyle("-fx-font-size: 60px; -fx-font-weight: bold; -fx-alignment: center;");
+		/**
+		 * 別解。すべてメソッドで書く
+		 */
+		/*
+		label.setStyle("-fx-font-size: 60px; -fx-font-weight: bold;");
+		label.setFont(Font.font("Arial", FontWeight.BOLD, FontPosture.REGULAR, 60));
+		label.setAlignment(Pos.CENTER);
 		label.setPrefWidth(640);
-		*/
+		 */
 			
 		var bPane = new BorderPane();
 		// 発展課題
