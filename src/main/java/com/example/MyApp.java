@@ -15,7 +15,7 @@ public class MyApp extends Application {
 
 		var label = new Label("Hello, KCG");
 		// 発展課題2b：中央揃え
-		label.setStyle("-fx-font-size: 60px; -fx-font-weight: bold; -fx-alignment: center; -fx-pref-width: 640;");
+		label.setStyle("-fx-font-size: 60px; -fx-font-weight: bold; -fx-alignment: center; -fx-pref-width: infinity;");
 		
 		/**
 		 * 発展課題2b：中央揃え別解１。すべてメソッドで書く
